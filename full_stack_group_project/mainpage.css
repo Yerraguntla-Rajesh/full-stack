@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+}
+body{
+   background:linear-gradient(to right,lightcyan,rgb(236, 228, 220));
+}
+.profile{
+    width: 25%;
+    height: 100vh;
+    position: fixed;
+    margin-left: 6px;
+    margin-top: 7px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 3px 3px rgb(71, 68, 68);
+}
+.post_page{
+    width: 40%;
+    height: 300vh;
+    margin-left: 28.5%;
+    margin-right: 2%;
+
+}
+.post_details{
+    width: 35%;
+    height: 100vh;
+    background-color:none;
+    position: fixed;
+    margin-left: 70%;
+
+}
+.webpage{
+    display: flex;
+}
+#cover{
+    background-color:cadetblue;
+    width: 25%;
+    height: 20vh;
+    position: fixed;
+    
+}
+#pimg{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 10vh;
+    margin-left: 13vh;
+    border: 4px solid white;    
+
+}
+.profile h2{
+   text-align: center;  
+}
+.profile h3{
+    margin-left: 5vh;
+}
+.contact{
+    margin-top: 10vh;
+
+}
+input[type="number"]{
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    height: 4vh;
+
+}
+input[type="submit"]{
+   margin-left: 3vh;
+   background-color: lightblue;
+   border-radius: 5px;
+
+}
+input[type="submit"]:hover{
+    margin-left: 3vh;
+    background-color: tra;
+    border-radius: 5px;
+    background-color: bisque;
+ 
+ }
+ input[type="search"]{
+    margin-left: 2vh;
+    border-radius: 5px;
+    width: 70%;
+    height: 5vh;
+    
+ }
+ input[type="button"]{
+    margin-left: 1vh;
+    border-radius: 5px;
+    width: 10vh;
+    height: 5vh;
+    border: none;
+    
+ }
+ input[type="button"]:hover{
+    margin-left: 1vh;
+    border-radius: 5px;
+    width: 10vh;
+    height: 5vh;
+    border: none;
+    background-color: lightgray;
+    
+ }
+ i{
+    margin-left:8px;
+ }
+ .post_page h1{
+    margin: 0;
+    margin-top: 5vh;
+
+ }
+ .post{
+    width: 100%;
+    height: 60vh;
+    background-color: none;
+    margin-top: 5vh;
+    display: none;
+ }
+ .post_profile{
+    display: flex;
+ }
+ .post_profile img{
+ width: 8vh;
+ height: 8vh;
+ border-radius: 50%;
+ margin: 2vh;
+ }
+ .post_profile h5
+ {
+    margin-top:4vh;
+ }
+ .image img{
+    width: 100%;
+    height: 40vh;
+    
+ }
+ .header{
+    width: 100%;
+    height: 20vh;
+   
+ }
+ iframe
+ {
+    height: 100%;
+    width: 100%;
+ }
+ .initial{
+    display: block;
+ }
